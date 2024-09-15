@@ -114,10 +114,10 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       iframe.style.display = "block";
-      iframe.src = `https://trakteer.id/astaaacihuy/tip/embed/modal?step=2&supporter_message=Masukkan email! emailnya bebas, JANGAN KLIK KOTAK "Dukungan sebagai anonim" atau saldo kamu tidak akan masuk!&quantity=${quantity}&payment_method=qris&display_name=${savedName}&email=play@virtualforge.id&`;
+      iframe.src = `https://trakteer.id/Datsun/tip/embed/modal?step=2&supporter_message=Masukkan email! emailnya bebas, JANGAN KLIK KOTAK "Dukungan sebagai anonim" atau saldo kamu tidak akan masuk!&quantity=${quantity}&payment_method=qris&display_name=${savedName}&email=play@virtualforge.id&`;
       iframe.contentWindow.postMessage(
         { type: "embed.openModal" },
-        `https://trakteer.id/astaaacihuy/tip/`
+        `https://trakteer.id/Datsun/tip/`
       );
     });
   });
